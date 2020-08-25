@@ -3,9 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Vino App</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link
+    rel="stylesheet"
+    href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+  />
+  <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>hello</h1>
+  <header class="header">
+    <div class="nav">
+      <div class="Logo">
+        <h3 class='title'>Vino .</h3>
+      </div>
+      <div class='icon'>
+        <i class="fas fa-user-plus"></i>
+        <i class="fas fa-shopping-cart"></i>
+      </div>
+    </div>
+
+    <div class='appDescription'>
+      <h2>Find your perfect match!</h2>
+      <p>Find the best suited wine for your meal by selecting one of the options
+        below. Vino provides options for all budgets.
+      </p>
+      <button class='matchBtn'> Final Match</button>
+    </div>
+
+    <img class='landingImg' src="./image/landingImage.svg" alt="landingImg"> 
+  </header>
+  <main class='main'>
+    <div class='mainBox'>
+        <h1 class='mainTitle'>What are you eating?</h1>
+        <p class='mainContent'>Select a meal below to find the best matched wine</p>
+    </div>
+
+  </main>
+  <section class='buttons'>
+    <button class="btn beef"><h4 class='foodOption'>Meat(Beef)</h4></button>
+    <button class="btn indian"><h4 class='foodOption'>Indian</h4></button>
+    <button class="btn seafood"><h4 class='foodOption'>Seafood</h4></button>
+    <button class="btn poultry"><h4 class='foodOption'>Poultry</h4></button>
+    <button class="btn pasta"><h4 class='foodOption'>Pasta & Pizza</h4></button>
+    <button class="btn asian"><h4 class='foodOption'>Asian</h4></button>
+  </section>
+  <footer class='footer'>
+    <p class='copyRight'>Developed by Daniel Chung & William Thomson</p>
+  </footer>
   </body>
 </html>

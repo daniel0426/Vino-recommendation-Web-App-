@@ -1,0 +1,206 @@
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #f8f8f8;
+}
+
+.header{
+   
+    position: relative;
+    
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+}
+.Logo {
+    background-color: #fff;
+    position:relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: -3%;
+    margin-top: -3%;
+    margin-bottom: 1.5rem;
+}
+.Logo .title{
+    color: #f77f71;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    font-size: 2.2rem;
+    font-family: 'Galada', cursive;
+    letter-spacing: 2px;
+}
+.icon {
+    margin: 1.5rem 3rem;
+
+}
+.icon i{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    cursor:pointer;
+   
+}
+.icon i:hover {
+    transform: scale(1.2);
+   
+}
+
+.appDescription{
+    position:relative;
+    width: 60%;
+    height: 40%;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.appDescription p{
+    margin : 15px 0px;
+
+}
+.appDescription button{
+    padding: 10px 25px;
+    background-color: #f77f71;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease-in;
+    margin-bottom: 10px;;
+    
+}
+.appDescription button:hover{
+    background-image: linear-gradient(to left bottom, #8E2DE2, #4A00E0);
+    transform: scale(1.1);
+}
+.landingImg{
+    position: absolute;
+    right: 8%;
+    top: 8rem;
+    width: 20%;
+    z-index: 100;
+}
+
+
+/* main */
+.mainBox {
+    
+    position: relative;
+    width: 100%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    background-color: #fff;
+    transform: skewY(-2deg);
+} 
+.mainBox *{
+    transform: skewY(2deg);
+}
+
+
+
+
+.mainBox .mainTitle{
+    margin-top: 20px;
+    color: #f77f71;
+    font-weight: 400;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+.mainBox .mainContent{
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+
+.buttons {
+    margin-top: 10px;
+    position:absolute;
+    z-index: 10;
+    
+    width: 500px;
+    height: 30%;
+   top: 50%;
+   left: 50%;
+   margin-left: -250px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.btn {
+    position: relative;
+    width: 110px;
+    margin: 15px;
+    height: 110px;
+    border-radius: 50%;
+    opacity: 0.6;
+    background-size: cover;
+    
+    border:none;
+    outline:none;
+    cursor:pointer;
+    transition: all 200ms ease;
+}
+.btn:hover {
+    transform:scale(1.15);
+}
+    
+
+
+.btn .foodOption {
+    color: #fff;
+    font-size: 1rem;
+    
+}
+.beef {
+    background-image:url(/image/beef.jpg);
+}
+.indian{
+    background-image:url(/image/indian.jpg);
+}
+.seafood{
+    background-image:url(/image/seafood.jpg);
+}
+.poultry {
+    background-image: url(/image/poultry.jpg);
+}
+.pasta {
+    background-image: url(/image/pizzaPasta.jpg);
+}
+.asian {
+    background-image: url(/image/Asian.jpg);
+}
+
+.footer {
+    
+    position: absolute;;
+    
+    width: 100%;
+    height: 30%;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    bottom: 0;
+    
+
+}
+.footer p {
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+    opacity: 0.8;
+    letter-spacing:0.5px;
+}
